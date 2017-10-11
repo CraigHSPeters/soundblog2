@@ -8,15 +8,22 @@ Template: twentyseventeen
 Version: 0.1.0
 */
 
-p {
-    background-color: pink;
-}
-/*removes Proudly powered by Wordpress line*/
+p {background-color: ;}
+
+/* removes Proudly powered by Wordpress line */
 .site-info {display:none;}
 
-/*reduces line weight on contact form*/
+/* reduces line weight on contact form */
 label {font-weight: 600;}
 
-/*changes colour on contact form button*/
+/* changes colour on contact form button */
 button, input[type="button"], input[type="submit"] {
     background-color: #666;}
+
+/* Change social nav buttons to #595630 (keep white text) */
+.social-navigation a {
+    background-color: #595630; }
+
+/* Change widget titles to #595630 */
+h2.widget-title {
+    color: #595630; }
